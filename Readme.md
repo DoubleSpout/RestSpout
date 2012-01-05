@@ -1,4 +1,4 @@
-# RestSpout——node.js restful ROA web framework
+# RestSpout —— node.js restful ROA web framework
 
 ##例子：(simple example)
 

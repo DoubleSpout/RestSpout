@@ -9,6 +9,6 @@ var http = require('http'),
 		res.write('req.GetParam:'+JSON.stringify(req.GetParam)+'<br />');
 		res.write('req.PostParam:'+JSON.stringify(req.PostParam)+'<br />');		
 		res.write('req.cookie:'+JSON.stringify(req.cookie)+'<br />');
-		res.write('<script>document.cookie = "name = spout"</script>')
+		res.write('<script>document.cookie = "name = spout"</script>');
 		res.end('</body>');
 	}).listen(3000);
